@@ -1,0 +1,16 @@
+{
+  "name": "cv",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "render": "node src/render"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "html-pdf": "^2.2.0",
+    "pug": "2.0.3"
+  }
+}
