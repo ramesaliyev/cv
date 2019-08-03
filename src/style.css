@@ -1,8 +1,10 @@
 html, body {
   width: 100%;
   height: 100%;
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  background-color: #ccc;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  background-color: #fff;
 }
 
 * {
@@ -12,27 +14,53 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #4A1942;
+  color: #1A1423;
+  font-weight: 400;
+  letter-spacing: -.025rem;
 }
 
 h1 {
   font-size: 36px;
-  font-weight: 700;
 }
 
 h2 {
   font-size: 28px;
-  font-weight: 700;
 }
 
 h3 {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 26px;
 }
 
 h4 {
   font-size: 16px;
-  font-weight: 500;
+}
+
+a {
+  color: #4C2A85;
+  text-decoration: none;
+}
+
+.logo {
+
+}
+
+.logo span {
+  color: #829191;
+}
+
+.sublogo {
+  font-size: 18px;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+p {
+  color: #829191;
+  line-height: 1.6rem;
+  font-size: 20px;
 }
 
 .wrapper {
@@ -40,18 +68,17 @@ h4 {
   min-height: 100%;
   padding: 40px;
   margin: 0 auto;
-  background-color: #fff;
 }
 
 header {
-  padding-bottom: 40px;
-  border-bottom: 1px solid #4A1942;
+  padding-bottom: 20px;
+  position: relative;
 }
 
 header h1,
 header h2,
-header h3 {
-  padding-bottom: 5px;
+header h3,
+header h4 {
 }
 
 
@@ -72,10 +99,19 @@ section {
 }
 
 .block-title {
-  font-weight: 600;
   padding-bottom: 5px;
+  color: #4C2A85;
 }
 
 .block-subtitle {
-  color: #666;
+  color: #829191;
+}
+
+.link-list {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.link-list li {
+  padding: 5px 0px;
 }

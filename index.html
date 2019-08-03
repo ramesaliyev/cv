@@ -1,8 +1,10 @@
 <!DOCTYPE html><html><head><style>html, body {
   width: 100%;
   height: 100%;
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  background-color: #ccc;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  background-color: #fff;
 }
 
 * {
@@ -12,27 +14,53 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #4A1942;
+  color: #1A1423;
+  font-weight: 400;
+  letter-spacing: -.025rem;
 }
 
 h1 {
   font-size: 36px;
-  font-weight: 700;
 }
 
 h2 {
   font-size: 28px;
-  font-weight: 700;
 }
 
 h3 {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 26px;
 }
 
 h4 {
   font-size: 16px;
-  font-weight: 500;
+}
+
+a {
+  color: #4C2A85;
+  text-decoration: none;
+}
+
+.logo {
+
+}
+
+.logo span {
+  color: #829191;
+}
+
+.sublogo {
+  font-size: 18px;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+p {
+  color: #829191;
+  line-height: 1.6rem;
+  font-size: 20px;
 }
 
 .wrapper {
@@ -40,18 +68,17 @@ h4 {
   min-height: 100%;
   padding: 40px;
   margin: 0 auto;
-  background-color: #fff;
 }
 
 header {
-  padding-bottom: 40px;
-  border-bottom: 1px solid #4A1942;
+  padding-bottom: 20px;
+  position: relative;
 }
 
 header h1,
 header h2,
-header h3 {
-  padding-bottom: 5px;
+header h3,
+header h4 {
 }
 
 
@@ -72,10 +99,19 @@ section {
 }
 
 .block-title {
-  font-weight: 600;
   padding-bottom: 5px;
+  color: #4C2A85;
 }
 
 .block-subtitle {
-  color: #666;
-}</style></head><body><div class="wrapper"><header><h1>Rameş Aliyev</h1><h2>Full Stack Developer</h2><h4>Istanbul, Turkey</h4></header><main><section><h3>Experiences</h3><div class="block"><div class="block-title">OmmaSign - Senior Full Stack Developer</div><div class="block-subtitle">Sep 2018 - Present</div></div><div class="block"><div class="block-title">Ecma Co. Ltd. - Co-Founder & Full Stack Developer</div><div class="block-subtitle">Jun 2017 - Present</div></div><div class="block"><div class="block-title">Pisano - Senior Frontend Developer</div><div class="block-subtitle">Feb 2018 - Sep 2018 (8 months)</div></div><div class="block"><div class="block-title">Emlakjet - Senior Full Stack Developer</div><div class="block-subtitle">Jan 2016 - Oct 2017 (1 year 10 months)</div></div><div class="block"><div class="block-title">Turkcell - Senior JavaScript Developer (Consultant)</div><div class="block-subtitle">Oct 2013 - Dec 2015 (2 years 3 months)</div></div><div class="block"><div class="block-title">E-NET Internet Technology Co - JavaScript Developer</div><div class="block-subtitle">Jan 2013 - Sep 2013 (9 months)</div></div><div class="block"><div class="block-title">Techpoint Labs @ Frontend Developer</div><div class="block-subtitle">Mar 2012 - Jan 2013 (11 months)</div></div><div class="block"><div class="block-title">Koridor Prodüksiyon ve Tasarım Atölyesi @ Full Stack Developer</div><div class="block-subtitle">Feb 2009 - Mar 2012 (3 years 2 months)</div></div></section><section><h3>Education</h3><div class="block"><div class="block-title">Yildiz Technical University</div><div class="block-subtitle">Bachelor of Science - BS, Computer Engineering · (2018 - 2022)</div></div><div class="block"><div class="block-title">Sakarya University</div><div class="block-subtitle">Associate's Degree, Computer Programming · (2016 - 2018)</div></div><div class="block"><div class="block-title">Zeytinburnu Industrial Vocational High School</div><div class="block-subtitle">High School, Electronic Technology/Technician · (2004 - 2007)</div></div></section><section><h3>Volunteer Experience</h3><div class="block"><div class="block-title">Trainer @ Frontend Camp'17 Summer</div><div class="block-subtitle">Aug 2017</div></div><div class="block"><div class="block-title">Organiser / Speaker @ JSNinjas - Free For All</div><div class="block-subtitle">Aug 2015</div></div><div class="block"><div class="block-title">Speaker @ The Frontiers:Mini</div><div class="block-subtitle">Jun 2015</div></div></section><section><h3>Links</h3><div class="block"><div class="block-title">github.com/ramesaliyev</div></div><div class="block"><div class="block-title">linkedin.com/in/ramesaliyev</div></div><div class="block"><div class="block-title">twitter.com/ramesaliyev</div></div></section><section><h3>Contact</h3><div class="block"><div class="block-title">creator@ramesaliyev.com</div></div></section></main><footer></footer></div></body></html>
+  color: #829191;
+}
+
+.link-list {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.link-list li {
+  padding: 5px 0px;
+}</style></head><body><div class="wrapper"><header><h1 class="logo">rameş<span>aliyev</span></h1><h2 class="sublogo">Full Stack Developer</h2></header><main><section><p>I'm an experienced web based full-stack software engineer who ❤ javascript, frontend, backend, devops, functional programming, math, geometry and machine learning. Please visit my personal website <a target="_blank" href="https://ramesaliyev.com">ramesaliyev.com</a> and other profiles to get further information about my experimental works.</p></section><section><h3>experiences</h3><div class="block"><div class="block-title">Senior Full Stack Developer @ OmmaSign</div><div class="block-subtitle">Sep 2018 - Present</div></div><div class="block"><div class="block-title">Co-Founder & Full Stack Developer @ Ecma Co. Ltd.</div><div class="block-subtitle">Jun 2017 - Present</div></div><div class="block"><div class="block-title">Senior Frontend Developer @ Pisano</div><div class="block-subtitle">Feb 2018 - Sep 2018 (8 months)</div></div><div class="block"><div class="block-title">Senior Full Stack Developer @ Emlakjet</div><div class="block-subtitle">Jan 2016 - Oct 2017 (1 year 10 months)</div></div><div class="block"><div class="block-title">Senior JavaScript Developer (Consultant) @ Turkcell</div><div class="block-subtitle">Oct 2013 - Dec 2015 (2 years 3 months)</div></div><div class="block"><div class="block-title">JavaScript Developer @ E-NET Internet Technology Co</div><div class="block-subtitle">Jan 2013 - Sep 2013 (9 months)</div></div><div class="block"><div class="block-title">Frontend Developer @ Techpoint Labs</div><div class="block-subtitle">Mar 2012 - Jan 2013 (11 months)</div></div><div class="block"><div class="block-title">Full Stack Developer @ Koridor Prodüksiyon ve Tasarım Atölyesi</div><div class="block-subtitle">Feb 2009 - Mar 2012 (3 years 2 months)</div></div></section><section><h3>education</h3><div class="block"><div class="block-title">Yildiz Technical University</div><div class="block-subtitle">Bachelor of Science - BS, Computer Engineering · (2018 - 2022)</div></div><div class="block"><div class="block-title">Sakarya University</div><div class="block-subtitle">Associate's Degree, Computer Programming · (2016 - 2018)</div></div><div class="block"><div class="block-title">Zeytinburnu Industrial Vocational High School</div><div class="block-subtitle">High School, Electronic Technology/Technician · (2004 - 2007)</div></div></section><section><h3>volunteer experience</h3><div class="block"><div class="block-title">Trainer @ Frontend Camp'17 Summer</div><div class="block-subtitle">Aug 2017</div></div><div class="block"><div class="block-title">Organiser / Speaker @ JSNinjas - Free For All</div><div class="block-subtitle">Aug 2015</div></div><div class="block"><div class="block-title">Speaker @ The Frontiers:Mini</div><div class="block-subtitle">Jun 2015</div></div></section><section><h3>links</h3><ul class="link-list"><li><a target="_blank" href="https://ramesaliyev.com">ramesaliyev.com</a></li><li><a target="_blank" href="https://github.com/ramesaliyev">github.com/ramesaliyev</a></li><li><a target="_blank" href="https://linkedin.com/in/ramesaliyev">linkedin.com/in/ramesaliyev</a></li><li><a target="_blank" href="https://twitter.com/ramesaliyev">twitter.com/ramesaliyev</a></li></ul></section><section><h3>contact</h3><div class="block"><div class="block-title">creator@ramesaliyev.com</div></div></section></main><footer></footer></div></body></html>
