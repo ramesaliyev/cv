@@ -12,7 +12,7 @@ fs.writeFileSync(path.join(__dirname + '/../index.html'), html);
 
 pdf
   .create(html, {})
-  .toFile(path.join(__dirname + '/../dist/cv.pdf'),
+  .toFile(path.join(__dirname + '/../cv.pdf'),
     (err, res) => {
       if (err) {
         return console.log(err);
