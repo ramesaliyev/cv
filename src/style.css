@@ -108,10 +108,13 @@ section {
 }
 
 .link-list {
-  padding: 10px;
   list-style-type: none;
 }
 
 .link-list li {
-  padding: 5px 0px;
+  padding-bottom: 10px;
+}
+
+.link-list li:last-child {
+  padding-bottom: 0px;
 }
