@@ -2,7 +2,7 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   background-color: #fff;
 }
@@ -20,23 +20,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 1.8rem;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 1.4rem;
 }
 
 h3 {
-  font-size: 26px;
+  font-size: 1.3rem;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 0.8rem;
 }
 
 a {
-  color: #4C2A85;
+  color: #313715;
   text-decoration: none;
 }
 
@@ -49,7 +49,7 @@ a {
 }
 
 .sublogo {
-  font-size: 18px;
+  font-size: 0.9rem;
 }
 
 a:hover,
@@ -58,9 +58,9 @@ a:focus {
 }
 
 p {
-  color: #829191;
+  color: #333;
   line-height: 1.6rem;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .wrapper {
@@ -100,11 +100,12 @@ section {
 
 .block-title {
   padding-bottom: 5px;
-  color: #4C2A85;
+  color: #313715;
 }
 
 .block-subtitle {
-  color: #829191;
+  font-size: 0.8rem;
+  color: #697777;
 }
 
 .link-list {
