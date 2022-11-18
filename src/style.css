@@ -108,6 +108,11 @@ section {
   color: #697777;
 }
 
+.block-subtitle a {
+  color: #697777;
+  text-decoration: underline;
+}
+
 .link-list {
   list-style-type: none;
 }
